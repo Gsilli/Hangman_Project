@@ -11,8 +11,6 @@ class HangManEngine:
   def readInput(self, choosenInput=None):
     if choosenInput:
         userInput = raw_input("Please insert your letter:")
-    return print("You choose an", userInput)
-    '''You chose an "A" '''
     else:
 	self.userInput = choosenInput
     return self.userInput
