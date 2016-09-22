@@ -1,6 +1,7 @@
 language: python
-python:
-        
-- "3.2"
+python:      
+       - "3.2"
+       - "2.7"
+
 #command to run tests
 script: ./run_unittest.sh
